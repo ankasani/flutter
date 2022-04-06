@@ -6,7 +6,7 @@ set -e
 # debug log
 set -x
 
-sudo gem uninstall cocoapods -force
+sudo gem uninstall cocoapods --force
 sudo gem install cocoapods -v 1.7.5
 pod setup
 
